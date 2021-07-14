@@ -155,7 +155,7 @@ Use the removeFlavorByName function below to do the following:
   return array;
 }
 
-console.log(removeFlavorByName("Rocky Road"));
+console.log(removeFlavorByName(originalFlavors, "Rocky Road"));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 July 7th is "World Chocolate Day" and Baskin Robins wants to create promotional materials highlighting all of their chocolate flavors. 
@@ -187,7 +187,7 @@ function filterByWord(array, string){
   return newArray;
 }
 
-console.log(filterByWord(originalFlavors, 'chocolate'));
+console.log(filterByWord(originalFlavors, 'Chocolate'));
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
